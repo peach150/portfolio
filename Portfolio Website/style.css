@@ -1,0 +1,114 @@
+nav {
+    border-bottom: 1px solid black
+}
+
+
+body {
+    background-color: #FFEDDD;
+}
+
+li {
+    font-family: "PT Serif", serif;
+}
+.Left-brand-logo {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: black;
+}
+h4 {
+    font-family: "Playfair Display", serif;
+    font-size: xx-large;
+}
+h1 {
+    font-family: "Playfair Display", serif; 
+}
+h3 {
+    font-family: "Dancing Script", cursive;
+}
+h6 {
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+.card {
+    background-color: rgb(238, 215, 197);
+    padding: 10px 0px;
+    transition: .5s;
+}
+.card:hover i, h5 {
+    color: black;
+}
+.card:hover {
+    transform: scale(1.03);
+
+}
+.service-overview img {
+    width: 100%;
+    height: 100%;
+}
+
+h5 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+}
+.social-icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #FFEDDD;
+    margin: 10px;
+    border-radius: 50%;
+}
+.social-icons a i {
+    font-size: 2em;
+    color: #423A31;
+    opacity: 0.9;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer {
+
+    background-color: #423A31;
+}
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #423A31;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i {
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+}
+.footerBottom {
+    background-color: #423A31;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p {
+    color: white;
+}
